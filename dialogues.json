@@ -1,0 +1,97 @@
+{
+  "interactions": [
+    {
+      "id": "station_guard",
+      "lines": [
+        {
+          "speaker":"Girl:",
+          "en": "Are you lost?",
+          "jp": "迷子ですか？",
+          "romaji": "Maigo desu ka?",
+          "audio": "are_you_lost"
+        },
+        {
+          "speaker":"You:",
+          "en": "I want to go to Shibuya.",
+          "jp": "渋谷に行きたいです。",
+          "romaji": "Shibuya ni ikitai desu.",
+          "audio": "i_wanna_go_to_shibuya"
+        },
+        {
+          "speaker":"You:",
+          "en": "Which line should I take?",
+          "jp": "どの路線に乗ればいいですか？",
+          "romaji": "Dono rosen ni noreba ii desu ka?",
+          "audio":"which_line_should_I_take"
+        },
+        {
+          "speaker":"Girl:",
+          "en": "Take the Yamanote Line.",
+          "jp": "山手線に乗ってください。",
+          "romaji": "Yamanote sen ni notte kudasai.",
+          "audio":"take_yamanote_line"
+        },
+        {
+            "speaker":"You:",
+            "en": "Okay, thank you very much!",
+            "jp": "ありがとうございます！",
+            "romaji": "Arigatou gozaimasu!",
+            "audio":"thank_you_very_much"
+        },
+        {
+            "speaker":"Girl:",
+            "en": "The ticket machine is over there.",
+            "jp": "あそこに券売機があります。",
+            "romaji": "Asoko ni kenbaiki ga arimasu.",
+            "audio":"the_ticket_machine_is_over_there"
+        }
+      
+      ]
+    },
+    {
+      "id": "ticket_machine",
+      "lines": [
+        {
+          "speaker":"Ticket Machine:",
+          "en": "Select your destination.",
+          "jp": "目的地を選んでください。",
+          "romaji": "Mokutekichi o erande kudasai.",
+          "audio":"select_your_destination"
+        },
+        {
+          "speaker":"You:",
+          "en": "I want to go to Shibuya.",
+          "jp": "渋谷に行きたいです。",
+          "romaji": "Shibuya ni ikitai desu.",
+          "audio":"i_wanna_go_to_shibuya"
+        },
+        {
+            "speaker":"Ticket Machine:",
+            "en": "Thank you very much, have a good trip!",
+            "jp": "ありがとうございます。良い旅を！",
+            "romaji": "Arigatou gozaimasu. Yoi tabi o!",
+            "audio":"thank_you_have_a_good_trip"
+        }
+      ]
+    },
+    {
+      "id": "train_arrival",
+      "lines": [
+        {
+          "speaker":"Train Announcer:",
+          "en": "The train is arriving.",
+          "jp": "電車が到着します。",
+          "romaji": "Densha ga touchaku shimasu.",
+          "audio":"the_train_is_arriving"
+        },
+        {
+          "speaker":"Train Announcer:",
+          "en": "Please step back from the doors.",
+          "jp": "ドアから離れてください。",
+          "romaji": "Doa kara hanarete kudasai.",
+          "audio":"please_step_back_from_the_doors"
+        }
+      ]
+    }
+  ]
+}

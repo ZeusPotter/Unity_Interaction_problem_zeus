@@ -26,8 +26,14 @@ public class DialogueTrigger : MonoBehaviour
         var interaction = dialogueScene.interactions.Find(i => i.id == interactionID);
         if (interaction != null)
         {
-            Debug.Log(interaction.npcName); // Make sure npcName exists in Interaction
-            DialogueManager.Instance.StartDialogue(interaction.lines, interaction.npcName);
+            // Use the interaction ID as the NPC name since npcName is not in the JSON
+            string npcName = interaction.npcName;
+            if (string.IsNullOrEmpty(npcName))
+            {
+                npcName = interaction.id; // Fallback to using the ID as the NPC name
+            }
+            Debug.Log("NPC Name: " + npcName);
+            DialogueManager.Instance.StartDialogue(interaction.lines, npcName);
         }
         else
         {
